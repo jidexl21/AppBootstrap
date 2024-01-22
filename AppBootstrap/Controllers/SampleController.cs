@@ -7,5 +7,9 @@ namespace AppBootstrap.Controllers
     [ApiController]
     public class SampleController : ControllerBase
     {
+        public void  HttpPost()
+        {
+
+        }
     }
 }
