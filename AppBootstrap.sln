@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppBootstrap.Data.Dapper", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppBootstrap.Services", "AppBootstrap.Services\AppBootstrap.Services.csproj", "{3F4DCCED-BBCB-492A-AB75-1708E4328483}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D2EC5E8-DA72-44C2-91CB-F72C608F623A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBootstrap.CQRS", "AppBootstrap.CQRS\AppBootstrap.CQRS.csproj", "{A318AADF-D4DD-4E89-9164-0DA3DD2A8C64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,9 +43,20 @@ Global
 		{3F4DCCED-BBCB-492A-AB75-1708E4328483}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F4DCCED-BBCB-492A-AB75-1708E4328483}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F4DCCED-BBCB-492A-AB75-1708E4328483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A318AADF-D4DD-4E89-9164-0DA3DD2A8C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A318AADF-D4DD-4E89-9164-0DA3DD2A8C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A318AADF-D4DD-4E89-9164-0DA3DD2A8C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A318AADF-D4DD-4E89-9164-0DA3DD2A8C64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11CD5468-A20D-4242-990D-68E6464DB2FF} = {4D2EC5E8-DA72-44C2-91CB-F72C608F623A}
+		{AD0F0AC2-ED04-441C-A984-ECD713CEBD07} = {4D2EC5E8-DA72-44C2-91CB-F72C608F623A}
+		{E8015FC7-C9CB-41F0-AD30-74BE3CBCFCB3} = {4D2EC5E8-DA72-44C2-91CB-F72C608F623A}
+		{0E0851EA-8920-4552-A2C8-066A9B38ED10} = {4D2EC5E8-DA72-44C2-91CB-F72C608F623A}
+		{3F4DCCED-BBCB-492A-AB75-1708E4328483} = {4D2EC5E8-DA72-44C2-91CB-F72C608F623A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA39789C-74ED-4291-8D2A-65B01F211958}

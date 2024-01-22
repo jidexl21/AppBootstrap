@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AppBootstrap.Core\AppBootstrap.Core.csproj" />
+    <ProjectReference Include="..\AppBootstrap.Data\AppBootstrap.Data.csproj" />
+  </ItemGroup>
+
 </Project>
